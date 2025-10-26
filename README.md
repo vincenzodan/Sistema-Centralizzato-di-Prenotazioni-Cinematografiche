@@ -17,7 +17,7 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli sull’a
       </a>
     </td>
     <td align="center">
-      <a href="https://www.sql.org/" target="_blank">
+      <a href="https://www.oracle.com/database/sqldeveloper/" target="_blank">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg" width="50" height="50"/><br>
         SQL Developer
       </a>
