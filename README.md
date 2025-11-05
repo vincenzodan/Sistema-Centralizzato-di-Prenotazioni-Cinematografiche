@@ -29,14 +29,14 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli sull’a
 
 1. **Collegamento al database Oracle XE**  
    Aprire Oracle SQL Developer e connettersi al PDB `XEPDB1` con un utente con privilegi DBA (`SYSTEM`) per creare tablespace e utenti:
-2. **Creazione tablespace e utenti** ([configurazione.sql](./configurazione.sql))
+2. **Creazione tablespace e utenti** ([configurazione.sql](./script/configurazione.sql))
    - Tablespace principali: `TS_CINEMA` e `TS_BACKUP`
    - Utenti: utente (principale) e backup1 (backup)
-3. **Esecuzione script utente** ([utente.sql](./utente.sql))
+3. **Esecuzione script utente** ([utente.sql](./script/utente.sql))
    - Creazione tabelle operative e anagrafiche
    - Definizione trigger e stored procedure (`InsertUtente`)
    - Assegnazione ruoli e privilegi
-4. **Esecuzione script backup** ([backup.sql](./backup.sql))
+4. **Esecuzione script backup** ([backup.sql](./script/backup.sql))
    - Creazione tabelle di backup
    - Definizione procedura `BACKUP_PROIEZIONI_STORICHE`
 
