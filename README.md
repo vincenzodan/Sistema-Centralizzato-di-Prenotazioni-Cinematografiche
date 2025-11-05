@@ -45,7 +45,7 @@ Consulta la [documentazione tecnica](./Documentazione.pdf) per dettagli sull’a
 ```
 Sistema-Centralizzato-di-Prenotazioni-Cinematografiche/
 │
-├── scripts/
+├── script/
 │   ├── configurazione.sql       # Script per creazione tablespace e utenti 
 │   ├── utente.sql               # Script per creazione tabelle, trigger, procedure, ruoli e grants
 │   ├── backup.sql               # Script per backup tabelle e procedure automatiche
