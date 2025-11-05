@@ -9,13 +9,15 @@ ALTER SESSION SET CONTAINER = XEPDB1;
 ---------------------------------------------------------
 -- Tablespace principale per i dati del database
 CREATE TABLESPACE ts_cinema
-DATAFILE 'C:\APP\VINCE\PRODUCT\21C\ORADATA\XE\ts_cinema.dbf'
+-- Modificare il percorso in base alla propria installazione Oracle
+DATAFILE '<percorso_locale>\ts_cinema.dbf'
 SIZE 50M
 AUTOEXTEND ON NEXT 10M MAXSIZE 12G;
 
 -- Tablespace per backup
 CREATE TABLESPACE ts_backup
-DATAFILE 'C:\APP\VINCE\PRODUCT\21C\ORADATA\XE\ts_backup.dbf'
+-- Modificare il percorso in base alla propria installazione Oracle
+DATAFILE '<percorso_locale>\ts_backup.dbf'
 SIZE 50M
 AUTOEXTEND ON NEXT 10M MAXSIZE 12G;
 
@@ -88,4 +90,5 @@ GRANT SELECT ON UTENTE.RECITA TO siti_esterni;
 ---------------------------------------------------------
 GRANT utenti TO UTENTE;
 GRANT referenti TO UTENTE;
+
 GRANT siti_esterni TO UTENTE;
